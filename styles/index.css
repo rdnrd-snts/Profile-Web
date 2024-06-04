@@ -1,0 +1,144 @@
+p {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.kidpic {
+  width: 400px;
+}
+
+.dancer {
+  width: 400px;
+}
+
+.grpbutton{
+  background-color: rgb(72, 179, 250);
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 9px;
+  transition: opacity 0.5s;
+  vertical-align: top;
+}
+
+.grpbutton:hover {
+  opacity: 0.8;
+}
+
+.grpbutton:active {
+  opacity: 0.5;
+}
+
+.grpcult{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(1, 192, 128);
+  color: rgb(1, 192, 128);
+  border-radius: 3px;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s,
+      color 0.5s,
+      box-shadow 0.5s;
+      vertical-align: top;
+}
+
+.grpcult:hover {
+  background-color:  rgb(1, 192, 128);
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.10);
+}
+
+.grpcult:active {
+  opacity: 0.5;
+}
+
+.project-web {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.playlist-title{
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(27, 146, 3);
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;               
+}
+
+.headtext {
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-text {
+  font-weight: bold;
+  text-align: center;
+}
+
+.location {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.follow {
+  color: yellow;
+}
+
+.follow:hover {
+  text-decoration:underline;
+}
+
+.msgtext {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.messagebar {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sendbtn {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(1, 192, 128);
+  color: rgb(1, 192, 128);
+  border-radius: 3px;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s,
+      color 0.5s,
+      box-shadow 0.5s;
+      vertical-align: top;
+}
+
+.sendbtn:hover {
+  background-color:  rgb(1, 192, 128);
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.10);
+}
+
+.sendbtn:active {
+  opacity: 0.5;
+}
+
+.address-info {
+  font-weight: bold;
+}
